@@ -1,0 +1,22 @@
+node_modules/
+lib/
+dist/
+.DS_Store
+.vscode/
+npm-debug.log
+
+# Local Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Docker artifacts
+.dockerignore
+Dockerfile
+.docker/
+
